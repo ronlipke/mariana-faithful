@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5
+
+- Resize the Trench icon to 256×256 to meet the Marketplace file-size limit.
+- Reject oversized icons during packaging.
+
 ## 1.0.4
 
 - Add the Trench Marketplace icon using the Mariana palette.
