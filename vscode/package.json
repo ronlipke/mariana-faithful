@@ -2,7 +2,7 @@
   "name": "mariana-faithful",
   "displayName": "Mariana Faithful",
   "description": "A source-based port of Sublime Text Mariana, including syntax, workbench and terminal colors.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "ronlipke",
   "engines": {
     "vscode": "^1.85.0"
@@ -34,5 +34,6 @@
   "homepage": "https://github.com/ronlipke/mariana-faithful#readme",
   "bugs": {
     "url": "https://github.com/ronlipke/mariana-faithful/issues"
-  }
+  },
+  "icon": "icon.png"
 }

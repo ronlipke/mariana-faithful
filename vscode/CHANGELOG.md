@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.4
+
+- Add the Trench Marketplace icon using the Mariana palette.
+
+## 1.0.3
+
+- Publish under the ronlipke publisher and update the Marketplace README.
+
 ## 1.0.2
 
 - Prepare public repository metadata, MIT licensing, and upstream attribution.
