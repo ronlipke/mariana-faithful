@@ -1,0 +1,11 @@
+const path = require('node:path');
+const fs = require('node:fs');
+const { spawnSync } = require('node:child_process');
+const root = path.resolve(__dirname, '..');
+const version = require('../vscode/package.json').version;
+const cli = path.join(path.dirname(require.resolve('@vscode/vsce/package.json')), 'vsce');
+const out = path.join(root, 'dist', `mariana-faithful-${version}.vsix`);
+fs.mkdirSync(path.dirname(out), { recursive: true });
+const result = spawnSync(process.execPath, [cli, 'package', '--out', out], { cwd: path.join(root, 'vscode'), stdio: 'inherit' });
+if (result.error) throw result.error;
+process.exitCode = result.status ?? 1;

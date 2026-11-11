@@ -1,0 +1,19 @@
+{
+  "name": "mariana-faithful-tools",
+  "version": "1.0.2",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node tests/verify.cjs",
+    "package": "npm run build && node scripts/package.cjs"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.1.0",
+    "vscode-oniguruma": "2.0.1",
+    "vscode-textmate": "9.3.2"
+  }
+}

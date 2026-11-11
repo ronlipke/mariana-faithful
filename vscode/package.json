@@ -1,0 +1,38 @@
+{
+  "name": "mariana-faithful",
+  "displayName": "Mariana Faithful",
+  "description": "A source-based port of Sublime Text Mariana, including syntax, workbench and terminal colors.",
+  "version": "1.0.2",
+  "publisher": "ron-local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Mariana",
+    "Sublime Text",
+    "dark"
+  ],
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mariana Faithful",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mariana-faithful-color-theme.json"
+      }
+    ]
+  },
+  "author": "Ron",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronlipke/mariana-faithful.git",
+    "directory": "vscode"
+  },
+  "homepage": "https://github.com/ronlipke/mariana-faithful#readme",
+  "bugs": {
+    "url": "https://github.com/ronlipke/mariana-faithful/issues"
+  }
+}

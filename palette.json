@@ -1,0 +1,59 @@
+{
+  "source": "Sublime Text build 4215 / Color Scheme - Default / Mariana.sublime-color-scheme",
+  "sourceDownload": "https://download.sublimetext.com/sublime_text_build_4215_x64.tar.xz",
+  "authors": "Sublime HQ Pty Ltd, Dmitri Voronianski",
+  "variables": {
+    "black": "#000000",
+    "blue": "#6699CC",
+    "blue-vibrant": "#5C99D6",
+    "blue2": "#596673B3",
+    "blue3": "#303841",
+    "blue4": "#647382",
+    "blue5": "#5FB4B4",
+    "blue6": "#A6ACB9",
+    "green": "#99C794",
+    "grey": "#333333",
+    "orange": "#F9AE58",
+    "orange2": "#EE932B",
+    "orange3": "#FAC761",
+    "pink": "#C695C6",
+    "red": "#EC5F66",
+    "red2": "#F97B58",
+    "white": "#FFFFFF",
+    "white2": "#F7F7F7",
+    "white3": "#D8DEE9"
+  },
+  "editor": {
+    "background": "#303841",
+    "foreground": "#D8DEE9",
+    "caret": "#F9AE58",
+    "selectionRGBA": "#596673B3",
+    "selectionFlattened": "#4D5864"
+  },
+  "ansi": {
+    "0": "#262D34",
+    "1": "#EC5F66",
+    "2": "#99C794",
+    "3": "#F9AE58",
+    "4": "#6699CC",
+    "5": "#C695C6",
+    "6": "#5FB4B4",
+    "7": "#D8DEE9",
+    "8": "#647382",
+    "9": "#EC5F66",
+    "10": "#99C794",
+    "11": "#FAC761",
+    "12": "#5C99D6",
+    "13": "#C695C6",
+    "14": "#5FB4B4",
+    "15": "#F7F7F7"
+  },
+  "adaptations": [
+    "ANSI slots reuse the original palette; there is no official Sublime ANSI mapping.",
+    "Workbench chrome uses shades derived from the editor background, inspired by Adaptive; it is not a pixel replica of Sublime UI.",
+    "Semantic highlighting defaults off to retain TextMate scope distinctions. Optional semantic mappings are included.",
+    "Sublime exclusion/disjunction selectors are translated to simple VS Code scopes and specific overrides.",
+    "Sublime token foreground_adjust and token backgrounds have no full VS Code equivalent. Diff editor backgrounds are mapped separately.",
+    "The 256-color cube and true-color colors emitted by terminal applications are not changed by a 16-color palette."
+  ]
+}

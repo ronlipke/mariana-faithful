@@ -1,0 +1,27 @@
+# Mariana Faithful — source palette from Sublime Text build 4215.
+# Original design: Sublime HQ Pty Ltd and Dmitri Voronianski.
+# ANSI mapping is an adaptation; Sublime has no official terminal palette.
+# Matching source colors are used for bright slots, avoiding extra saturation.
+background = #303841
+foreground = #D8DEE9
+cursor-color = #F9AE58
+cursor-text = #303841
+# Flatten source hsla(210, 13%, 40%, 0.7) over the editor background.
+selection-background = #4D5864
+selection-foreground = #D8DEE9
+palette = 0=#262D34
+palette = 1=#EC5F66
+palette = 2=#99C794
+palette = 3=#F9AE58
+palette = 4=#6699CC
+palette = 5=#C695C6
+palette = 6=#5FB4B4
+palette = 7=#D8DEE9
+palette = 8=#647382
+palette = 9=#EC5F66
+palette = 10=#99C794
+palette = 11=#FAC761
+palette = 12=#5C99D6
+palette = 13=#C695C6
+palette = 14=#5FB4B4
+palette = 15=#F7F7F7
