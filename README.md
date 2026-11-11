@@ -93,16 +93,6 @@ reports, dependencies, and grammar caches are ignored by Git.
 - If Ghostty is installed, you can additionally run
   `ghostty +validate-config --config-file=Mariana-Faithful.ghostty`.
 
-## Releases
-
-Keep built VSIX files out of Git. Build and test, then attach the VSIX and the
-Ghostty theme to a GitHub Release tagged with the extension version, for example
-`v1.0.2`. Update the version in both package manifests and the extension changelog
-for future releases.
-
-Report discrepancies through [GitHub Issues](https://github.com/ronlipke/mariana-faithful/issues).
-Include the language, a small sample, and screenshots from Sublime and the port.
-
 ## License and attribution
 
 The original porting implementation and adaptations are released under the
